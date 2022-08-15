@@ -1,0 +1,112 @@
+html {
+  accent-color: red;
+}
+
+body {
+  background-image: url('../assets/marvelbg.jpg');
+  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1200px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 8px;
+  height: 50px;
+  width: 450px;
+  max-width: 450px;
+
+  font-size: 24px;
+  margin-bottom: 24px;
+
+  color: white;
+  background-color: #ffffff99;
+  border: none
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffffff80;
+  color: white;
+  border-radius: 24px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: white !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  font-weight: 900;
+}
+
+.swiper-pagination {
+  color: white;
+}
+
+.hero-image {
+  display: contents;
+}
+
+.hero-image img {
+  border-radius: 24px;
+  position: relative;
+}
+
+.hero-name {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 54px;
+  border-radius: 8px;
+
+  font-size: 24px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+}
